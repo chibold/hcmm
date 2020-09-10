@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<HiBOp>
+  <mobilityModel>
+    <!-- Mobility Model -->
+    <var name="numNodes" value="16" />
+    <var name="simulationLifeTime" value="90000" />
+    <var name="minHostSpeed" value="1" />
+    <var name="maxHostSpeed" value="1.86" />
+    <var name="connectionThreshold" value="0.1" />
+    <var name="sideLength_WholeAreaX" value="750" />
+    <var name="sideLength_WholeAreaY" value="750" />
+    <var name="numberOfRows" value="3" />
+    <var name="numberOfColumns" value="3" />
+    <var name="radius" value="20" />
+    <var name="reconfigurationInterval" value="900000" />
+    <var name="rewiringProb" value="0.1" />
+    <var name="remainingProb" value="0.95" />
+    <var name="numberOfGroups" value="2" />
+    <var name="numberOfTravellers" value="0" />
+    <var name="travellerSpeed" value="2.5" />
+    <var name="travellerProb" value="0.8" />
+    <!-- End Mobility Model -->
+  </mobilityModel>
+</HiBOp>

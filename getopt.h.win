@@ -1,0 +1,29 @@
+/*******************************************
+ * HiBOp Network                           *
+ * History Based Opportunistic Network     *
+ *******************************************
+ *                                         *
+ * AUTHORS: Boldrini Chiara                *
+ *          Iacopini Iacopo                *
+ * CONTACT: hibopnet@puntomorto.it         *
+ *                                         *
+ *******************************************
+ *                                         *
+ * FILE: getopt.h                          *
+ * VERSION: 0.1                            *
+ * COMMENTS: getopt redefinition for WIN32 *
+ *                                         *
+ *******************************************/
+
+#ifndef GETOPT_H
+#define GETOPT_H
+
+//#include "utility.h"
+
+extern char *optarg;
+extern int optind, opterr;
+
+
+int getopt (int argc, char **argv, char *options);
+
+#endif
